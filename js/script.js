@@ -43,7 +43,7 @@ if( anniUtenteNumero <= minorenne ) {
 
 console.log(prezzoBiglietto)
 
-var prezzoFinaleBiglietto = ( 'Allora il prezzo del tuo biglietto è... ' + prezzoBiglietto.toFixed(2) );
+var prezzoFinaleBiglietto = ( 'Allora il prezzo del tuo biglietto è... ' + prezzoBiglietto.toFixed(2) + '$' );
 alert( prezzoFinaleBiglietto );
 
 document.getElementById( 'titolo' ).innerHTML = prezzoFinaleBiglietto;
